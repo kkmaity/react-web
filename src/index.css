@@ -1,0 +1,59 @@
+/* Reset & Base */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Navbar only styling */
+.navbar-dark {
+  background-color: #000000 !important;
+}
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link,
+.navbar-dark .btn {
+  color: #ffffff !important;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+a:hover {
+  color: #0a58ca;
+}
+
+/* Page spacing */
+.container-fluid {
+  padding: 1.5rem;
+}
+
+/* Button */
+button {
+  border-radius: 8px;
+  padding: 0.5em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f1f1f1;
+  color: #000;
+  border: 1px solid #ccc;
+  transition: 0.2s ease;
+}
+button:hover {
+  background-color: #e1e1e1;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
